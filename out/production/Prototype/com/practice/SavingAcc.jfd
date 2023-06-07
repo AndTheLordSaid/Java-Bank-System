@@ -1,0 +1,126 @@
+JFDML JFormDesigner: "7.0.2.6.321" Java: "11.0.8" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+			"$horizontalGroup": "par l {seq {par l {seq l {space :p:191:p, par l {comp label4::l:p::p, seq l {comp AmountField:::p:128:p, space :::p, comp DeposBTN:::p::p}, seq l {par l {comp label7::l:p::p, seq l {comp DepoTotalField:::p:128:p, space :::p, comp DeposConfirBTN:::p::p}}, space :p:132:p, par l {comp logoutBTN:::p::p, comp backBTN:::p:91:p}}, comp label3::l:p::p, comp IDField::l:p:114:p}}, seq {space :p:99:p, comp label1:::p:417:p}}, space :::x}, seq t {par t {seq {space :0:0:x, comp panel1:::p::p}, seq {space :p:379:p, par l {comp label6:::p:92:p, comp CurentBalField:::::x}, space :::p, comp SearchBTN:::p::p}}, space :p:143:p}}"
+			"$verticalGroup": "par l {seq l {space :::p, comp label1:::p:215:p, space :::p, comp panel1:::p::p, par l {seq {space :p:12:p, comp label6:::p::p}, seq l {space s:::p, comp label3:::p::p}}, space :::p, par b {comp SearchBTN::b:p::p, comp CurentBalField::b:p::p, comp IDField::b:p::p}, space s:::p, comp label4:::p::p, space :::p, par b {comp AmountField::b:p::p, comp DeposBTN::b:p::p}, space :::p, comp label7:::p::p, space :::p, par b {comp DepoTotalField::b:p::p, comp backBTN::b:p::p, comp DeposConfirBTN::b:p::p}, space :::p, comp logoutBTN:::p::p, space :p:17:p}}"
+		} ) {
+			name: "saAcc"
+			"background": new java.awt.Color( 255, 255, 255, 255 )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label1"
+				"icon": new com.jformdesigner.model.SwingIcon( 0, "/com/practice/odyssey bank log11.png" )
+			} )
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+				"$horizontalGroup": "par l {seq {space ::72:x, par l {seq t {comp label5:::p::p, space :p:61:p}, seq t {comp label2:::p::p, space :p:129:p}}}}"
+				"$verticalGroup": "par l {seq t {space :::p, comp label2:::p::p, space :::x, comp label5:::p::p, space :p:11:p}}"
+			} ) {
+				name: "panel1"
+				"background": new java.awt.Color( 153, 153, 153, 255 )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label2"
+					"text": "SAVINGS ACCOUNT"
+					"foreground": &Color0 new java.awt.Color( 255, 255, 255, 255 )
+					"font": &Font0 new java.awt.Font( "Mongolian Baiti", 0, 12 )
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label5"
+					"text": "Please Enter Your Ac/n Then Search, Before Deposits"
+					"foreground": #Color0
+					"font": #Font0
+				} )
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "IDField"
+				"background": new java.awt.Color( 153, 153, 153, 255 )
+				"foreground": new java.awt.Color( 255, 255, 255, 255 )
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label3"
+				"text": "Enter Account Number"
+				"foreground": &Color1 new java.awt.Color( 102, 102, 102, 255 )
+				"font": &Font1 new java.awt.Font( "Mongolian Baiti", 0, 12 )
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "logoutBTN"
+				"text": "LOGOUT"
+				"background": new java.awt.Color( 153, 153, 153, 255 )
+				"font": new java.awt.Font( "Copperplate Gothic Light", 0, 12 )
+				"foreground": new java.awt.Color( 255, 255, 255, 255 )
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "logoutBTNActionPerformed", true ) )
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "backBTN"
+				"text": "BACK"
+				"foreground": new java.awt.Color( 255, 255, 255, 255 )
+				"font": new java.awt.Font( "Copperplate Gothic Light", 0, 12 )
+				"background": new java.awt.Color( 153, 153, 153, 255 )
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "backBTNActionPerformed", true ) )
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "AmountField"
+				"foreground": new java.awt.Color( 255, 255, 255, 255 )
+				"background": &Color2 new java.awt.Color( 153, 153, 153, 255 )
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label4"
+				"text": "Enter Amount You Want To Deposit"
+				"foreground": #Color1
+				"font": #Font1
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label6"
+				"text": "Current Balance"
+				"foreground": #Color1
+				"font": #Font1
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "DepoTotalField"
+				"foreground": sfield java.awt.Color black
+				"background": #Color2
+				"editable": false
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label7"
+				"text": "Balance After Deposit"
+				"foreground": #Color1
+				"font": #Font1
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "SearchBTN"
+				"text": "SEARCH"
+				"background": &Color3 new java.awt.Color( 153, 153, 153, 255 )
+				"font": &Font2 new java.awt.Font( "Copperplate Gothic Light", 0, 12 )
+				"foreground": &Color4 new java.awt.Color( 255, 255, 255, 255 )
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "SearchBTNActionPerformed", true ) )
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "DeposBTN"
+				"text": "ACCEPT"
+				"background": #Color3
+				"font": #Font2
+				"foreground": #Color4
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "DeposBTNActionPerformed", true ) )
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "DeposConfirBTN"
+				"text": "CONFIRM"
+				"background": #Color3
+				"font": #Font2
+				"foreground": #Color4
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "DeposConfirBTNActionPerformed", true ) )
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "CurentBalField"
+				"editable": false
+				"foreground": sfield java.awt.Color black
+				"background": new java.awt.Color( 153, 153, 153, 255 )
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 0 )
+			"size": new java.awt.Dimension( 665, 525 )
+		} )
+	}
+}

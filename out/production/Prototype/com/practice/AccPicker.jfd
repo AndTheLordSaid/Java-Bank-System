@@ -1,0 +1,90 @@
+JFDML JFormDesigner: "7.0.2.6.321" Java: "11.0.8" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+			"$horizontalGroup": "par l {seq l {space :p:154:p, par l {comp SAccBTN:::p:193:p, comp CAccBTN:::p:193:p, seq l {par l {comp openaccBTN:::p:193:p, comp IAccBTN::l:p:193:p, comp closeaccBTN::l:p:193:p}, space ::43:x, par l {comp chgPinBTN:::p::p, comp backBTN:::p:117:p}, space :p:13:p}}}, seq {par l {seq l {space :::p, comp label1:::p:418:p}, seq l {space :p:89:p, comp panel1:::p::p}}, space ::96:x}}"
+			"$verticalGroup": "par l {seq l {comp label1:::p:211:p, space :::p, comp panel1:::p::p, space s:::p, comp CAccBTN:::p::p, space :::p, comp SAccBTN:::p::p, space :::p, comp IAccBTN:::p::p, space :::p, par b {comp openaccBTN::b:p::p, comp chgPinBTN::b:p::p}, space :::p, par b {comp closeaccBTN::b:p::p, comp backBTN::b:p::p}, space ::38:x}}"
+		} ) {
+			name: "AccPick"
+			"background": new java.awt.Color( 255, 255, 255, 255 )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label1"
+				"icon": new com.jformdesigner.model.SwingIcon( 0, "/com/practice/odyssey bank log11.png" )
+			} )
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+				"$horizontalGroup": "par l {seq l {space :p:20:p, comp label2:::p::p, space ::26:x}}"
+				"$verticalGroup": "par l {seq l {space :p:16:p, comp label2:::p::p, space ::22:x}}"
+			} ) {
+				name: "panel1"
+				"background": new java.awt.Color( 153, 153, 153, 255 )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label2"
+					"text": "Pick An Account You Want To Deposit/Withdraw From"
+					"foreground": new java.awt.Color( 255, 255, 255, 255 )
+					"font": new java.awt.Font( "Mongolian Baiti", 0, 12 )
+				} )
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "CAccBTN"
+				"text": "CHEQUEING ACCOUNT"
+				"background": &Color0 new java.awt.Color( 153, 153, 153, 255 )
+				"font": &Font0 new java.awt.Font( "Copperplate Gothic Light", 0, 12 )
+				"foreground": &Color1 new java.awt.Color( 255, 255, 255, 255 )
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "CAccBTNActionPerformed", true ) )
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "backBTN"
+				"text": "BACK"
+				"background": new java.awt.Color( 153, 153, 153, 255 )
+				"font": new java.awt.Font( "Copperplate Gothic Light", 0, 12 )
+				"foreground": new java.awt.Color( 255, 255, 255, 255 )
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "backBTNActionPerformed", true ) )
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "SAccBTN"
+				"text": "SAVINGS ACCOUNT"
+				"background": #Color0
+				"font": #Font0
+				"foreground": #Color1
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "SAccBTNActionPerformed", true ) )
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "IAccBTN"
+				"text": "INTEREST ACCOUNT"
+				"background": #Color0
+				"font": #Font0
+				"foreground": #Color1
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "IAccBTNActionPerformed", true ) )
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "closeaccBTN"
+				"text": "CLOSE ACCOUNT"
+				"background": &Color2 new java.awt.Color( 153, 153, 153, 255 )
+				"foreground": &Color3 new java.awt.Color( 255, 255, 255, 255 )
+				"font": &Font1 new java.awt.Font( "Copperplate Gothic Light", 0, 12 )
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "closeaccBTNActionPerformed", true ) )
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "openaccBTN"
+				"text": "OPEN ACCOUNT"
+				"background": #Color2
+				"foreground": #Color3
+				"font": #Font1
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "openaccBTNActionPerformed", true ) )
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "chgPinBTN"
+				"text": "CHANGE PIN"
+				"background": new java.awt.Color( 153, 153, 153, 255 )
+				"foreground": new java.awt.Color( 255, 255, 255, 255 )
+				"font": new java.awt.Font( "Copperplate Gothic Light", 0, 12 )
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "chgPinBTNActionPerformed", true ) )
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 0 )
+			"size": new java.awt.Dimension( 520, 500 )
+		} )
+	}
+}

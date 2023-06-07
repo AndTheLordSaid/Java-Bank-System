@@ -1,0 +1,121 @@
+JFDML JFormDesigner: "7.0.2.6.321" Java: "11.0.8" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+			"$horizontalGroup": "par l {seq {par l {seq l {space :p:34:p, comp logo:::p:482:p, space :::p, comp logoutBTN:::p::p}, seq l {space :p:94:p, par l {seq {comp label5:::p::p, space s:::p, comp IDField:::p:156:p}, comp admin:::p::p, par t:l::p {seq {par l {comp label2::l:p::p, comp label3:::p::p, comp label4:::p::p, comp label6:::p::p}, space :p:49:p, par l {seq {comp AdressField:::p:156:p, space :::x, comp backBTN:::p::p}, seq {par l {comp LnameField::l:p:156:p, comp FnameField::l:p:156:p}, space :0:0:x}, seq {comp GenderField:::p:156:p, space :::x, comp addBTN:::p::p}}}, comp panel1::l:p::p}}}}, space ::22:x}}"
+			"$verticalGroup": "par l {seq l {space :::p, par t {comp logo:::p:240:p, comp logoutBTN:::p::p}, space :::p, comp admin:::p::p, space :::p, comp panel1:::p::p, space :::p, par b {comp label5::b:p::p, comp IDField::b:p::p}, space u:::p, par b {comp label2::b:p::p, comp FnameField::b:p::p}, space u:::p, par b {comp label3::b:p::p, comp LnameField::b:p::p}, space u:::p, par b {comp label4::b:p::p, comp GenderField::b:p::p, comp addBTN::b:p::p}, space u:::p, par b {comp label6::b:p::p, comp AdressField::b:p::p, comp backBTN::b:p::p}, space ::16:x}}"
+		} ) {
+			name: "addClient"
+			"background": new java.awt.Color( 255, 255, 255, 255 )
+			"foreground": new java.awt.Color( 0, 0, 0, 255 )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "admin"
+				"text": "ADMIN (Add Client) "
+				"font": new java.awt.Font( "Mongolian Baiti", 2, 15 )
+				"foreground": new java.awt.Color( 0, 0, 0, 255 )
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "logo"
+				"icon": new com.jformdesigner.model.SwingIcon( 0, "/com/practice/odyssey bank log11.png" )
+			} )
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+				"$horizontalGroup": "par l {seq l {space :p:58:p, comp label1:::p::p, space ::42:x}}"
+				"$verticalGroup": "par l {seq t {space ::20:x, comp label1:::p::p, space :p:16:p}}"
+			} ) {
+				name: "panel1"
+				"background": new java.awt.Color( 153, 153, 153, 255 )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label1"
+					"text": "Please Add Client Details To Their Respective Fields"
+					"foreground": new java.awt.Color( 255, 255, 255, 255 )
+					"font": new java.awt.Font( "Mongolian Baiti", 0, 12 )
+				} )
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label2"
+				"text": "First Name"
+				"background": new java.awt.Color( 153, 153, 153, 255 )
+				"foreground": new java.awt.Color( 102, 102, 102, 255 )
+				"font": new java.awt.Font( "Mongolian Baiti", 0, 12 )
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label3"
+				"text": "Last Name"
+				"background": new java.awt.Color( 153, 153, 153, 255 )
+				"foreground": new java.awt.Color( 102, 102, 102, 255 )
+				"font": new java.awt.Font( "Mongolian Baiti", 0, 12 )
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label4"
+				"text": "Gender"
+				"foreground": new java.awt.Color( 102, 102, 102, 255 )
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label5"
+				"text": "Client ID Number"
+				"foreground": new java.awt.Color( 102, 102, 102, 255 )
+				"font": new java.awt.Font( "Mongolian Baiti", 0, 12 )
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "IDField"
+				"foreground": new java.awt.Color( 255, 255, 255, 255 )
+				"background": new java.awt.Color( 153, 153, 153, 255 )
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "FnameField"
+				"foreground": new java.awt.Color( 255, 255, 255, 255 )
+				"background": new java.awt.Color( 153, 153, 153, 255 )
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "LnameField"
+				"foreground": new java.awt.Color( 255, 255, 255, 255 )
+				"background": new java.awt.Color( 153, 153, 153, 255 )
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "GenderField"
+				"background": new java.awt.Color( 153, 153, 153, 255 )
+				"foreground": new java.awt.Color( 255, 255, 255, 255 )
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "AdressField"
+				"background": new java.awt.Color( 153, 153, 153, 255 )
+				"foreground": new java.awt.Color( 255, 255, 255, 255 )
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label6"
+				"text": "Address"
+				"background": new java.awt.Color( 102, 102, 102, 255 )
+				"foreground": new java.awt.Color( 102, 102, 102, 255 )
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "addBTN"
+				"text": "ADD "
+				"foreground": new java.awt.Color( 255, 255, 255, 255 )
+				"font": new java.awt.Font( "Copperplate Gothic Light", 0, 12 )
+				"background": new java.awt.Color( 153, 153, 153, 255 )
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "addBTNActionPerformed", true ) )
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "logoutBTN"
+				"text": "LOGOUT"
+				"foreground": new java.awt.Color( 255, 255, 255, 255 )
+				"font": new java.awt.Font( "Copperplate Gothic Light", 0, 12 )
+				"background": new java.awt.Color( 153, 153, 153, 255 )
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "logoutBTNActionPerformed", true ) )
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "backBTN"
+				"text": "BACK"
+				"foreground": new java.awt.Color( 255, 255, 255, 255 )
+				"font": new java.awt.Font( "Copperplate Gothic Light", 0, 12 )
+				"background": new java.awt.Color( 153, 153, 153, 255 )
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "backBTNActionPerformed", true ) )
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 50, 5 )
+			"size": new java.awt.Dimension( 635, 550 )
+		} )
+	}
+}

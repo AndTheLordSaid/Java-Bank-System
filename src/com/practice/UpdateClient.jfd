@@ -1,0 +1,118 @@
+JFDML JFormDesigner: "7.0.2.6.321" Java: "11.0.8" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+			"$horizontalGroup": "par l {seq l {space :p:71:p, comp label1:::p:398:p, space :::p, comp logoutBTN:::p::p, space ::59:x}, seq {space ::109:x, par l {comp admin2:::p::p, par t:l::p {seq l {space :p:3:p, comp panel1:::p::p}, seq t {par l {comp label8::l:p::p, seq l {par l {par t {seq {comp label5:::p::p, space :p:18:p}, seq t {comp label9:::p::p, space :p:23:p}}, seq {par l {comp label7:::p::p, comp label6::t:p::p}, space :::p}}, par l {comp genField::l:p:120:p, comp adField::l:p:120:p, comp fNameField:::p:120:p, comp clieID:::p:120:p, comp lNameFiedl::l:p:120:p}}}, space :::x, par l:::p {comp backBTN::::91:x, comp update::::91:x}, space :p:2:p}}}, space ::168:x}}"
+			"$verticalGroup": "par l {seq l {par t {comp label1:::p:215:p, comp logoutBTN:::p::p}, space :::p, comp admin2:::p::p, space :p:12:p, comp panel1:::p::p, space u:::p, par b {comp label5::b:p::p, comp clieID::b:p::p}, space :::p, par b {comp fNameField::b:p::p, comp label6::b:p::p}, space :p:5:p, par b {comp lNameFiedl::b:p::p, comp label7::b:p::p}, space :::p, par b {comp genField::b:p::p, comp label8::b:p::p, comp update::b:p::p}, space :::x, par b {comp adField::b:p::p, comp label9::b:p::p, comp backBTN::b:p::p}, space :p:23:p}}"
+		} ) {
+			name: "UpdCLi2"
+			"background": new java.awt.Color( 255, 255, 255, 255 )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "admin2"
+				"text": "ADMIN (Update Client)  "
+				"font": new java.awt.Font( "Mongolian Baiti", 2, 15 )
+				"foreground": new java.awt.Color( 0, 0, 0, 255 )
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label5"
+				"text": "Client ID: "
+				"foreground": new java.awt.Color( 102, 102, 102, 255 )
+				"font": new java.awt.Font( "Mongolian Baiti", 0, 12 )
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "clieID"
+				"background": new java.awt.Color( 153, 153, 153, 255 )
+				"foreground": new java.awt.Color( 255, 255, 255, 255 )
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label6"
+				"text": "First Name: "
+				"foreground": new java.awt.Color( 102, 102, 102, 255 )
+				"font": new java.awt.Font( "Mongolian Baiti", 0, 12 )
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "fNameField"
+				"background": new java.awt.Color( 153, 153, 153, 255 )
+				"foreground": new java.awt.Color( 255, 255, 255, 255 )
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "lNameFiedl"
+				"background": new java.awt.Color( 153, 153, 153, 255 )
+				"foreground": new java.awt.Color( 255, 255, 255, 255 )
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "genField"
+				"background": new java.awt.Color( 153, 153, 153, 255 )
+				"foreground": new java.awt.Color( 255, 255, 255, 255 )
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "adField"
+				"background": new java.awt.Color( 153, 153, 153, 255 )
+				"foreground": new java.awt.Color( 255, 255, 255, 255 )
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label7"
+				"text": "Last Name: "
+				"foreground": new java.awt.Color( 102, 102, 102, 255 )
+				"font": new java.awt.Font( "Mongolian Baiti", 0, 12 )
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label8"
+				"text": "Gender: "
+				"foreground": new java.awt.Color( 102, 102, 102, 255 )
+				"font": new java.awt.Font( "Mongolian Baiti", 0, 12 )
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label9"
+				"text": "Address: "
+				"foreground": new java.awt.Color( 102, 102, 102, 255 )
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label1"
+				"icon": new com.jformdesigner.model.SwingIcon( 0, "/com/practice/odyssey bank log11.png" )
+			} )
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+				"$horizontalGroup": "par l {seq l {space :p:94:p, comp label2:::p::p, space ::93:x}}"
+				"$verticalGroup": "par l {seq t {space ::46:x, comp label2:::p::p, space :p:38:p}}"
+			} ) {
+				name: "panel1"
+				"background": new java.awt.Color( 153, 153, 153, 255 )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label2"
+					"text": "Enter And Update Client Details"
+					"foreground": new java.awt.Color( 255, 255, 255, 255 )
+					"font": new java.awt.Font( "Mongolian Baiti", 0, 12 )
+				} )
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "logoutBTN"
+				"text": "LOGOUT"
+				"background": new java.awt.Color( 153, 153, 153, 255 )
+				"foreground": new java.awt.Color( 255, 255, 255, 255 )
+				"font": new java.awt.Font( "Copperplate Gothic Light", 0, 12 )
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "logoutBTNActionPerformed", true ) )
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "backBTN"
+				"text": "BACK"
+				"background": new java.awt.Color( 153, 153, 153, 255 )
+				"font": new java.awt.Font( "Copperplate Gothic Light", 0, 12 )
+				"foreground": new java.awt.Color( 255, 255, 255, 255 )
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "backBTNActionPerformed", true ) )
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "update"
+				"text": "UPDATE"
+				"foreground": new java.awt.Color( 255, 255, 255, 255 )
+				"background": new java.awt.Color( 153, 153, 153, 255 )
+				"font": new java.awt.Font( "Copperplate Gothic Light", 0, 12 )
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "updateActionPerformed", true ) )
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 60, 0 )
+			"size": new java.awt.Dimension( 625, 560 )
+		} )
+	}
+}

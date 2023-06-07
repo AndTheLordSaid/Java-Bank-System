@@ -1,0 +1,72 @@
+JFDML JFormDesigner: "7.0.2.6.321" Java: "11.0.8" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+			"$horizontalGroup": "par l {seq {space :p:69:p, comp label1:::p:418:p, space ::158:x}, seq l {space :p:192:p, par l {seq {par l {comp label6:::p::p, comp IDField:::p:128:p}, space :p:49:p, par t:::p {comp pinField::l:::x, comp label5::l::113:x}, space :p:43:p}, seq {comp panel1:::::x, space s:::p}}, comp backBTN::::88:x, space :p:32:p}, seq t {space ::295:x, comp createPBTN:::p::p, space :p:237:p}}"
+			"$verticalGroup": "par l {seq l {space :p:18:p, comp label1:::p:211:p, space :::p, comp panel1:::p::p, space s:::p, par b {comp label5::b:p::p, comp label6::b:p::p}, space u:::p, par b {comp pinField::b:p::p, comp IDField::b:p::p}, space :::p, comp createPBTN:::p::p, space :p:4:p, comp backBTN:::p::p, space ::46:x}}"
+		} ) {
+			name: "PinCreate"
+			"background": new java.awt.Color( 255, 255, 255, 255 )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label1"
+				"icon": new com.jformdesigner.model.SwingIcon( 0, "/com/practice/odyssey bank log11.png" )
+			} )
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+				"$horizontalGroup": "par l {seq t {space :::x, comp label2:::p::p, space :p:111:p}}"
+				"$verticalGroup": "par l {seq l {space :p:18:p, comp label2:::p::p, space ::20:x}}"
+			} ) {
+				name: "panel1"
+				"background": new java.awt.Color( 153, 153, 153, 255 )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label2"
+					"text": "Create Your PIN"
+					"foreground": new java.awt.Color( 255, 255, 255, 255 )
+					"font": new java.awt.Font( "Mongolian Baiti", 0, 12 )
+				} )
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label5"
+				"text": "Enter Your New PIN"
+				"foreground": &Color0 new java.awt.Color( 102, 102, 102, 255 )
+				"font": &Font0 new java.awt.Font( "Mongolian Baiti", 0, 12 )
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label6"
+				"text": "Enter Your ID"
+				"foreground": #Color0
+				"font": #Font0
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "IDField"
+				"foreground": new java.awt.Color( 255, 255, 255, 255 )
+				"background": new java.awt.Color( 153, 153, 153, 255 )
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "backBTN"
+				"text": "BACK"
+				"background": new java.awt.Color( 153, 153, 153, 255 )
+				"foreground": new java.awt.Color( 255, 255, 255, 255 )
+				"font": new java.awt.Font( "Copperplate Gothic Light", 0, 12 )
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "backBTNActionPerformed", true ) )
+			} )
+			add( new FormComponent( "javax.swing.JPasswordField" ) {
+				name: "pinField"
+				"background": new java.awt.Color( 153, 153, 153, 255 )
+				"foreground": new java.awt.Color( 255, 255, 255, 255 )
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "createPBTN"
+				"text": "CREATE PIN"
+				"foreground": new java.awt.Color( 255, 255, 255, 255 )
+				"background": new java.awt.Color( 153, 153, 153, 255 )
+				"font": new java.awt.Font( "Copperplate Gothic Light", 0, 12 )
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "createPBTNActionPerformed", true ) )
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 0 )
+			"size": new java.awt.Dimension( 645, 480 )
+		} )
+	}
+}

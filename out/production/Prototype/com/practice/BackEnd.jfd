@@ -1,0 +1,80 @@
+JFDML JFormDesigner: "7.0.2.6.321" Java: "11.0.8" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+			"$horizontalGroup": "par l {seq {par l {seq {space :p:160:p, par l {comp admin:::p::p, par t:l::p {comp panel1:::p::p, comp addBTN:::::x}, comp updateBTN::l:p:363:p, comp viewBTN::l:p:363:p, comp deleteBTN::l:p:363:p}}, seq l {space :p:88:p, comp logo:::p:423:p, space u:::p, comp logOutBTN:::p::p}}, space ::56:x}}"
+			"$verticalGroup": "par l {seq t {par l {comp logo:::p:170:p, seq l {space :p:126:p, comp logOutBTN:::p::p}}, space :::p, comp admin:::p::p, space u:::p, comp panel1:::p::p, space s:::p, comp addBTN:::p::p, space :::p, comp viewBTN:::p::p, space :p:12:p, comp updateBTN:::p::p, space :::p, comp deleteBTN:::p::p, space ::36:x}}"
+		} ) {
+			name: "backEnd"
+			"background": new java.awt.Color( 255, 255, 255, 255 )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "admin"
+				"text": "ADMIN (Main Menu) "
+				"font": new java.awt.Font( "Mongolian Baiti", 2, 15 )
+				"foreground": new java.awt.Color( 0, 0, 0, 255 )
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "logo"
+				"icon": new com.jformdesigner.model.SwingIcon( 0, "/com/practice/odyssey bank log11.png" )
+			} )
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+				"$horizontalGroup": "par l {seq l {space :p:121:p, comp label1:::p::p, space ::127:x}}"
+				"$verticalGroup": "par l {seq l {space :p:16:p, comp label1:::p::p, space ::20:x}}"
+			} ) {
+				name: "panel1"
+				"background": new java.awt.Color( 153, 153, 153, 255 )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label1"
+					"text": "Please Pick An Option"
+					"foreground": new java.awt.Color( 255, 255, 255, 255 )
+					"font": new java.awt.Font( "Mongolian Baiti", 0, 12 )
+				} )
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "logOutBTN"
+				"text": "LOGOUT"
+				"foreground": new java.awt.Color( 255, 255, 255, 255 )
+				"background": new java.awt.Color( 153, 153, 153, 255 )
+				"font": new java.awt.Font( "Copperplate Gothic Light", 0, 12 )
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "logOutBTNActionPerformed", true ) )
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "addBTN"
+				"text": "ADD CLIENT"
+				"foreground": new java.awt.Color( 255, 255, 255, 255 )
+				"background": new java.awt.Color( 153, 153, 153, 255 )
+				"font": new java.awt.Font( "Copperplate Gothic Light", 0, 12 )
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "addBTNActionPerformed", true ) )
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "viewBTN"
+				"text": "VIEW CLIENTS"
+				"foreground": new java.awt.Color( 255, 255, 255, 255 )
+				"background": new java.awt.Color( 153, 153, 153, 255 )
+				"font": new java.awt.Font( "Copperplate Gothic Light", 0, 12 )
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "viewBTNActionPerformed", true ) )
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "updateBTN"
+				"text": "UPDATE CLIENT DETAILS"
+				"foreground": new java.awt.Color( 255, 255, 255, 255 )
+				"background": new java.awt.Color( 153, 153, 153, 255 )
+				"font": new java.awt.Font( "Copperplate Gothic Light", 0, 12 )
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "updateBTNActionPerformed", true ) )
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "deleteBTN"
+				"text": "DELETE CLIENT"
+				"foreground": new java.awt.Color( 255, 255, 255, 255 )
+				"font": new java.awt.Font( "Copperplate Gothic Light", 0, 12 )
+				"background": new java.awt.Color( 153, 153, 153, 255 )
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "deleteBTNActionPerformed", true ) )
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 135, 60 )
+			"size": new java.awt.Dimension( 670, 455 )
+		} )
+	}
+}

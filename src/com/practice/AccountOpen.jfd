@@ -1,0 +1,276 @@
+JFDML JFormDesigner: "7.0.2.6.321" Java: "11.0.8" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+			"$horizontalGroup": "par l {seq t {space :p:67:p, par l {seq l {comp panel1:::p::p, space :p:80:p, comp panel4:::p::p}, seq l {par l {comp label3::l:p::p, comp label10:::p::p, comp ChAccTypeField:::p:128:p, comp label5:::p::p, comp ChAccNoField:::p:128:p, comp label4::l:p::p, comp ChIDField::l:p:128:p, comp ChDeposField::l:p:128:p, seq l {comp cheClearBTN:::p::p, space :::p, comp ChDepoBTN:::p::p}}, space :p:92:p, par l {seq {comp saClearBTN:::p::p, space :::p, comp SaDepoBTN:::p::p}, comp SaAccNoField:::p:128:p, comp label11:::p::p, comp label12::l:p::p, comp SaIDField::l:p:128:p, comp label13::l:p::p, comp SaAccTypeField::l:p:128:p, comp label14::l:p::p, comp SaDeposField::l:p:128:p}}}, space ::82:x, par l {comp label15:::p::p, comp InAccNoField:::p:128:p, comp label16:::p::p, comp InIDField:::p:128:p, comp label17:::p::p, comp InAccTypeField:::p:128:p, comp label18:::p::p, comp InDeposField:::p:128:p, comp panel5::l:p::p, seq l {comp inClearBTN:::p::p, space u:::p, comp InDepoBTN:::p::p}}, space :p:33:p}, seq t {space ::287:x, comp panel2:::p::p, space s:::p, par l {comp backBTN::l:p:91:p, comp logoutBTN::l:p::p}, space :p:139:p}, seq l {space :p:171:p, comp label1:::p:410:p, space ::209:x}}"
+			"$verticalGroup": "par l {seq {comp label1:::p:235:p, space :::p, par l {comp panel2:::p::p, seq {comp backBTN:::p::p, space :::p, comp logoutBTN:::p::p}}, space :p:35:p, par l {comp panel1::l:p::p, comp panel4::l:p::p, comp panel5::l:p::p}, space u:::p, par l {comp label3:::p::p, par b {comp label15::b:p::p, comp label11::b:p::p}}, space :::p, par l {comp ChAccNoField:::p::p, comp InAccNoField::l:p::p, comp SaAccNoField::l:p::p}, space :::p, par l {comp label4:::p::p, par b:l {comp label16::b:p::p, comp label12::b:p::p}}, space :::p, par l {comp ChIDField:::p::p, comp InIDField::l:p::p, comp SaIDField::l:p::p}, space :::p, par l {comp label5:::p::p, comp label17::l:p::p, comp label13::l:p::p}, space :::p, par l {comp ChAccTypeField:::p::p, comp InAccTypeField::l:p::p, comp SaAccTypeField::l:p::p}, space :::p, par l {comp label10:::p::p, comp label18::l:p::p, comp label14::l:p::p}, space :::p, par l {comp ChDeposField:::p::p, comp InDeposField::l:p::p, comp SaDeposField::l:p::p}, space :::p, par l {par b {comp cheClearBTN::b:p::p, comp ChDepoBTN::b:p::p}, par b {comp InDepoBTN::b:p::p, comp inClearBTN::b:p::p}, par b:l {comp saClearBTN::b:p::p, comp SaDepoBTN::b:p::p}}, space ::24:x}}"
+		} ) {
+			name: "AccOpener"
+			"background": new java.awt.Color( 255, 255, 255, 255 )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label1"
+				"icon": new com.jformdesigner.model.SwingIcon( 0, "/com/practice/odyssey bank log11.png" )
+			} )
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+				"$horizontalGroup": "par l {seq t {space ::22:x, comp label7:::p::p, space :p:19:p}}"
+				"$verticalGroup": "par l {seq t {space ::19:x, comp label7:::p::p, space :p:14:p}}"
+			} ) {
+				name: "panel1"
+				"background": &Color0 new java.awt.Color( 153, 153, 153, 255 )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label7"
+					"text": "Open A Chequeing Account"
+					"foreground": &Color1 new java.awt.Color( 255, 255, 255, 255 )
+					"font": &Font0 new java.awt.Font( "Mongolian Baiti", 0, 12 )
+				} )
+			} )
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+				"$horizontalGroup": "par l {seq l {space :p:34:p, comp label6:::p::p, space ::38:x}}"
+				"$verticalGroup": "par l {seq l {space :p:29:p, comp label6:::p::p, space ::28:x}}"
+			} ) {
+				name: "panel2"
+				"background": new java.awt.Color( 153, 153, 153, 255 )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label6"
+					"text": "Pick An Account You Want To Open"
+					"foreground": #Color1
+					"font": #Font0
+				} )
+			} )
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+				"$horizontalGroup": "par l {seq t {space ::32:x, comp label8:::p::p, space :p:23:p}}"
+				"$verticalGroup": "par l {seq l {space :p:16:p, comp label8:::p::p, space ::17:x}}"
+			} ) {
+				name: "panel4"
+				"background": #Color0
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label8"
+					"text": "Open A Savings Account"
+					"foreground": #Color1
+					"font": #Font0
+				} )
+			} )
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+				"$horizontalGroup": "par l {seq t {space ::20:x, comp label9:::p::p, space :p:16:p}}"
+				"$verticalGroup": "par l {seq t {space ::19:x, comp label9:::p::p, space :p:14:p}}"
+			} ) {
+				name: "panel5"
+				"background": #Color0
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label9"
+					"text": "Open An Interest Account"
+					"foreground": #Color1
+					"font": #Font0
+				} )
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label3"
+				"text": "Enter Account Number"
+				"foreground": &Color2 new java.awt.Color( 102, 102, 102, 255 )
+				"font": &Font1 new java.awt.Font( "Mongolian Baiti", 0, 12 )
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "ChAccNoField"
+				"foreground": &Color3 new java.awt.Color( 255, 255, 255, 255 )
+				"background": &Color4 new java.awt.Color( 153, 153, 153, 255 )
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label4"
+				"text": "Enter Your ID"
+				"foreground": #Color2
+				"font": #Font1
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "ChIDField"
+				"foreground": #Color3
+				"background": #Color4
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "ChDepoBTN"
+				"text": "Accept"
+				"background": &Color5 new java.awt.Color( 153, 153, 153, 255 )
+				"font": &Font2 new java.awt.Font( "Copperplate Gothic Light", 0, 12 )
+				"foreground": &Color6 new java.awt.Color( 255, 255, 255, 255 )
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "depositBTNActionPerformed", true ) )
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "depositBTNActionPerformed", true ) )
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "ChDepoBTNActionPerformed", true ) )
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label5"
+				"text": "Enter Account Type"
+				"foreground": #Color2
+				"font": #Font1
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "ChAccTypeField"
+				"foreground": #Color3
+				"background": #Color4
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label10"
+				"text": "Initial Deposit"
+				"foreground": #Color2
+				"font": #Font1
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "ChDeposField"
+				"foreground": #Color3
+				"background": #Color4
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label11"
+				"text": "Enter Account Number"
+				"foreground": #Color2
+				"font": #Font1
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "SaAccNoField"
+				"foreground": #Color3
+				"background": #Color4
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label12"
+				"text": "Enter Your ID"
+				"foreground": #Color2
+				"font": #Font1
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "SaIDField"
+				"foreground": #Color3
+				"background": #Color4
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label13"
+				"text": "Enter Account Type"
+				"foreground": #Color2
+				"font": #Font1
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "SaAccTypeField"
+				"foreground": #Color3
+				"background": #Color4
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label14"
+				"text": "Initial Deposit"
+				"foreground": #Color2
+				"font": #Font1
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "SaDeposField"
+				"foreground": #Color3
+				"background": #Color4
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "SaDepoBTN"
+				"text": "Accept"
+				"background": #Color5
+				"font": #Font2
+				"foreground": #Color6
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "depositBTNActionPerformed", true ) )
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "depositBTNActionPerformed", true ) )
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "SaDepoBTNActionPerformed", true ) )
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label15"
+				"text": "Enter Account Number"
+				"foreground": #Color2
+				"font": #Font1
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "InAccNoField"
+				"foreground": #Color3
+				"background": #Color4
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label16"
+				"text": "Enter Your ID"
+				"foreground": #Color2
+				"font": #Font1
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "InIDField"
+				"foreground": #Color3
+				"background": #Color4
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label17"
+				"text": "Enter Account Type"
+				"foreground": #Color2
+				"font": #Font1
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "InAccTypeField"
+				"foreground": #Color3
+				"background": #Color4
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label18"
+				"text": "Initial Deposit"
+				"foreground": #Color2
+				"font": #Font1
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "InDeposField"
+				"foreground": #Color3
+				"background": #Color4
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "InDepoBTN"
+				"text": "Accept"
+				"background": #Color5
+				"font": #Font2
+				"foreground": #Color6
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "depositBTNActionPerformed", true ) )
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "depositBTNActionPerformed", true ) )
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "InDepoBTNActionPerformed", true ) )
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "backBTN"
+				"text": "BACK"
+				"foreground": new java.awt.Color( 255, 255, 255, 255 )
+				"font": new java.awt.Font( "Copperplate Gothic Light", 0, 12 )
+				"background": new java.awt.Color( 153, 153, 153, 255 )
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "backBTNActionPerformed", true ) )
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "logoutBTN"
+				"text": "LOGOUT"
+				"background": #Color5
+				"font": #Font2
+				"foreground": #Color6
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "logoutBTNActionPerformed", true ) )
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "cheClearBTN"
+				"text": "CLEAR"
+				"background": &Color7 new java.awt.Color( 153, 153, 153, 255 )
+				"font": &Font3 new java.awt.Font( "Copperplate Gothic Light", 0, 12 )
+				"foreground": &Color8 new java.awt.Color( 255, 255, 255, 255 )
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "cheClearBTNActionPerformed", true ) )
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "saClearBTN"
+				"text": "CLEAR"
+				"background": #Color7
+				"font": #Font3
+				"foreground": #Color8
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "saClearBTNActionPerformed", true ) )
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "inClearBTN"
+				"text": "CLEAR"
+				"background": #Color7
+				"font": #Font3
+				"foreground": #Color8
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "inClearBTNActionPerformed", true ) )
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 10, 35 )
+			"size": new java.awt.Dimension( 790, 690 )
+		} )
+	}
+}
+
